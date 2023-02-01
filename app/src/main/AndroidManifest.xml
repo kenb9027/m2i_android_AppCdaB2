@@ -15,10 +15,8 @@
             android:name=".NewActivity2"
             android:exported="false" />
         <activity
-            android:name=".NewActivity"
-            android:exported="false"
-            android:label="@string/title_activity_new"
-            android:theme="@style/Theme.AppCdaB2.NoActionBar" />
+            android:name=".ProfileDetails"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

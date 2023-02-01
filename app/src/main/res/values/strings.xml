@@ -11,5 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="ma_super_page">Ma Super Page!</string>
+    <string name="intent">INTENT</string>
+    <string name="parcelable">Parcelable -> My Profile</string>
 
 </resources>
