@@ -40,4 +40,10 @@
         android:text="à cocher"
         />
 
+    <com.example.appcdab2.MyButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUPER !"
+        />
+
 </LinearLayout>
