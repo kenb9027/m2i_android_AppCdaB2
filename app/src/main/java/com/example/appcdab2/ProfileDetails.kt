@@ -4,6 +4,7 @@ import android.os.Build
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -24,5 +25,20 @@ class ProfileDetails: AppCompatActivity() {
 
         nameTextView.setText("Nom : ${profile?.name}")
         ageTextView.setText("Age : ${profile?.age} ans")
+
+        //Create dialog btn
+        findViewById<Button>(R.id.dialog_btn).setOnClickListener{
+            val fragment = ConfirmDeleteDialogFragment()
+            fragment.listener = object: ConfirmDeleteDialogFragment.ConfirmDeleteListener {
+                override fun onDialogPositiveClick() {
+                    TODO("Not yet implemented")
+                }
+
+                override fun onDialogNegativeClick() {
+                    TODO("Not yet implemented")
+                }
+
+            }
+        }
     }
 }
